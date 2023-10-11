@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 import AddTask from "./component/AddTask";
 
 export default function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState(["First project", "To do list"]);
 
   return (
     <SafeAreaView>
